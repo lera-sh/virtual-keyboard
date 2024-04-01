@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets//fonts/Montserrat.ttf);
+}
+
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    align-items: center;
+    background-color: #836953;
+    box-shadow: 13px 14px 78px 3px rgba(133, 124, 133, .5);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.title-container {
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.title {
+    color: #FFFAFA;
+    font-family: 'Montserrat', 'Times New Roman';
+    font-size: 25px;
+    padding-right: 200px;
+}
+
+.description {
+    color: #FFFAFA;
+    font-family: 'Montserrat', 'Times New Roman';
+    font-size: 15px;
+    font-style: italic;
+}
+
+.textarea-container {
+    border-radius: 20px;
+    background-color: #EFDECD;
+    padding: 40px 40px 15px;
+}
+
+.textarea-field {
+    height: 250px;
+    width: 600px;
+}
+
+.textarea-field:focus-visible {
+    outline: none;
+}
+
+.keyboard-container {
+    align-items: center;
+    background-color: #EFDECD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+}
+
+.keyboard-row {
+    display: flex;
+}
+
+.key {
+    align-items: center;
+    border: #6F4E37 1px solid;
+    border-radius: 30px;
+    box-shadow: 1px 10px 15px -10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 12px 15px;
+    width: 25px;
+}
+
+.key:active {
+    box-shadow: 1px 9px 10px -10px rgba(0, 0, 0, 1) inset;
+}
+
+.active {
+    box-shadow: 1px 9px 10px -10px rgba(0, 0, 0, 1) inset;
+}
+
+.space {
+    width: 425px;
+}
+
+.caps {
+    width: 60px;
+}
+
+.none {
+    display: none;
+}
+
+.language-container {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.language {
+    color: #474747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+}
